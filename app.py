@@ -121,8 +121,8 @@ def main():
         Utiliza los filtros de la izquierda para analizar el rendimiento de los jugadores.
         
         **Interpretación Clave:** Cada barra muestra el rendimiento del jugador comparado con el promedio (Z=0) de la **Categoría de Referencia** seleccionada.
-        * **Azul (`1 EQUIPO`):** Rendimiento vs. promedio de `1 EQUIPO`.
-        * **Naranja (`SUB 17`):** Rendimiento vs. promedio de `SUB 17`.
+        * **Azul (`1 EQUIPO`):** Zscore del jugador en el 1 equipo
+        * **Naranja (`SUB 17`):** Zscore del jugador en su categoría
     """)
     
     # --- BOTÓN DE RECARGA (Nuevo) ---
